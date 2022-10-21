@@ -1,0 +1,35 @@
+{
+  "devDependencies": {
+    "microbundle": "^0.15.1"
+  },
+  "name": "@a-normal-cat/add-some-numbers",
+  "description": "Non suspiciously adds some numbers together  🚀",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/a-normal-cat/add-some-numbers.git"
+  },
+  "keywords": [
+    "add",
+    "some",
+    "numbers"
+  ],
+  "author": "a-normal-cat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/a-normal-cat/add-some-numbers/issues"
+  },
+  "homepage": "https://github.com/a-normal-cat/add-some-numbers#readme",
+  "source": "src/add.js",
+  "exports": {
+    "require": "./dist/add.cjs",
+    "default": "./dist/add.js"
+  },
+  "main": "./dist/add.cjs",
+  "module": "./dist/add.module.js",
+  "unpkg": "./dist/add.umd.js",
+  "scripts": {
+    "build": "microbundle",
+    "dev": "microbundle watch"
+  }
+}
