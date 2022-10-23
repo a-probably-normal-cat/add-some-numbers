@@ -11,6 +11,9 @@
     "type": "git",
     "url": "git+https://github.com/a-normal-cat/add-some-numbers.git"
   },
+  "publishConfig": {
+    "directory": "dist"
+  },
   "keywords": [
     "add",
     "some",
@@ -35,7 +38,7 @@
     "dev": "microbundle watch",
     "postinstall": "node ./postinstall.js",
     "changeset": "changeset",
-    "release": "npm run build && changeset publish"
+    "release": "npm run build && npm publish --access public"
   },
   "private": false
 }
