@@ -4,13 +4,10 @@
   },
   "name": "@a-normal-cat/add-some-numbers",
   "description": "Non suspiciously adds some numbers together  🚀",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/a-normal-cat/add-some-numbers.git"
-  },
-  "publishConfig": {
-    "directory": "dist"
   },
   "keywords": [
     "add",
