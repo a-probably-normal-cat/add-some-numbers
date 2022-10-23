@@ -30,6 +30,7 @@
   "unpkg": "./dist/add.umd.js",
   "scripts": {
     "build": "microbundle",
-    "dev": "microbundle watch"
+    "dev": "microbundle watch",
+    "postinstall": "node ./postinstall.js"
   }
 }
