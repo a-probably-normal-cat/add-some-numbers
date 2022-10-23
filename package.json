@@ -6,7 +6,7 @@
   },
   "name": "@a-normal-cat/add-some-numbers",
   "description": "Non suspiciously adds some numbers together  🚀",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/a-normal-cat/add-some-numbers.git"
