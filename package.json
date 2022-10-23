@@ -36,5 +36,6 @@
     "postinstall": "node ./postinstall.js",
     "changeset": "changeset",
     "release": "npm run build && changeset publish"
-  }
+  },
+  "private": false
 }
