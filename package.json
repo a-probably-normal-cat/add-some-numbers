@@ -4,7 +4,7 @@
   },
   "name": "@a-normal-cat/add-some-numbers",
   "description": "Non suspiciously adds some numbers together  🚀",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/a-normal-cat/add-some-numbers.git"
@@ -12,7 +12,8 @@
   "keywords": [
     "add",
     "some",
-    "numbers"
+    "numbers",
+    "cosmic-ray-safe"
   ],
   "author": "a-normal-cat",
   "license": "MIT",
