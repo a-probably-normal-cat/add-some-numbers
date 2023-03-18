@@ -2,8 +2,8 @@
   "devDependencies": {
     "microbundle": "^0.15.1"
   },
-  "name": "@a-normal-cat/add-some-numbers",
-  "description": "Non suspiciously adds some numbers together  🚀",
+  "name": "@a-norml-cat/add-some-numbers",
+  "description": "Non suspiciously adds some numbers together 🚀",
   "version": "1.0.7",
   "repository": {
     "type": "git",
